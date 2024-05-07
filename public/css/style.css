@@ -1,15 +1,15 @@
 /*header config*/
 @media screen and (max-width: 850px) {
   .PC {
-      display: none;
+    display: none;
   }
 }
 @media screen and (min-width: 850px) {
   .mobile {
-      display: none;
+    display: none;
   }
 }
-.site-header{
+.site-header {
   background: rgba(251, 250, 245, 0.485);
   display: flex;
   position: fixed;
@@ -17,7 +17,7 @@
   width: 100%;
   z-index: 100;
   height: 64px;
-  box-shadow: 0px  4px 6px 0px rgba(0, 0, 0, 0.482);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.482);
 }
 .site-header.transform {
   background: rgb(251, 250, 245);
@@ -34,7 +34,7 @@
 .gnav {
   padding-right: 20px;
 }
-.site-logo img{
+.site-logo img {
   height: 60px;
   width: auto;
   padding-top: 4px;
@@ -42,32 +42,32 @@
   padding-right: 5px;
   margin: 0;
 }
-.gnav__menu{
+.gnav__menu {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.gnav__menu__item{
+.gnav__menu__item {
   margin-left: 20px;
-  list-style:none;
+  list-style: none;
   position: relative;
   display: inline-block;
-  transition: .3s;
+  transition: 0.3s;
 }
-.gnav__menu__item a{
+.gnav__menu__item a {
   color: #333;
   text-decoration: none;
 }
 .gnav__menu__item::after {
   position: absolute;
-  bottom: .3em;
+  bottom: 0.3em;
   left: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
   background-color: rgb(31, 190, 187);
   opacity: 0;
-  transition: .3s;
+  transition: 0.3s;
   margin-bottom: -4px;
 }
 .gnav__menu__item:hover::after {
@@ -76,20 +76,20 @@
   opacity: 1;
   height: 2px;
 }
-.rubyposition_under{
+.rubyposition_under {
   display: inline-block;
 }
-.rubyposition_under ruby{
+.rubyposition_under ruby {
   display: flex;
   flex-direction: column;
   text-align: justify;
   text-align-last: center;
 }
-.PC_span ruby{
+.PC_span ruby {
   font-size: 20px;
   text-align-last: center;
 }
-.mobile_span ruby{
+.mobile_span ruby {
   font-size: 30px;
   text-align-last: left;
 }
@@ -165,8 +165,6 @@
 .global-nav__item a:hover {
   opacity: 0.7;
 }
-
-
 
 /*config*/
 .font-weight-bold {
@@ -364,7 +362,7 @@
 
 /*footer*/
 footer {
-  box-shadow: 0px  -4px 6px 0px rgba(0, 0, 0, 0.482);
+  box-shadow: 0px -4px 6px 0px rgba(0, 0, 0, 0.482);
   height: 200px;
 }
 .footer {
@@ -386,15 +384,6 @@ footer {
 .hex-logo {
   height: 100px;
   background-image: url(../img/pca-maker.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: auto;
-  margin-right: auto;
-}
-.sumire-logo {
-  height: 100px;
-  background-image: url(../img/sumireproduction.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
